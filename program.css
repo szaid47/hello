@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    background-image: url('painting.jpg');
+    font-family:: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: #3d9276;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Gallery Section */
+  #gallery {
+    margin-bottom: 30px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .artwork {
+    flex: 0 0 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .artwork img {
+    image: url('paint2.jpg');
+    border: 5px solid #e8eeeeb0;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .artwork h3 {
+    margin-top: 10px;
+  }
+  
+  .artwork p {
+    margin-bottom: 5px;
+  }
+  
+  .artwork button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Shop Section */
+  #shop {
+    margin-bottom: 30px;
+  }
+  
+  /* About Section */
+  #about {
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
